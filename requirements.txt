@@ -1,0 +1,12 @@
+cvzone                 # Compatibility depends on OpenCV and Mediapipe, verify their compatibility first.
+opencv-python>=4.8.0   # Latest version that supports Python 3.12.
+scipy>=1.11.0          # Ensure version 1.11.0 or newer.
+ultralytics            # Depends on PyTorch; not compatible with Python 3.12. Use Python 3.11 instead.
+matplotlib>=3.7.0      # Version 3.7.0 or newer.
+Pillow>=10.0.0         # Version 10.0.0 or newer.
+PyYAML>=6.0            # Version 6.0 or newer.
+requests>=2.31.0       # Version 2.31.0 or newer.
+tqdm>=4.65.0           # Version 4.65.0 or newer.
+filterpy               # Not officially compatible with Python 3.12. Use Python 3.11 instead.
+scikit-image>=0.20.0   # Version 0.20.0 or newer.
+lap                    # Known compatibility issues with Python 3.12. Use Python 3.11 instead.
