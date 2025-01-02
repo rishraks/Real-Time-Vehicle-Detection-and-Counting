@@ -38,6 +38,7 @@ cd CarCountingProject
 **Step 2**: Download YOLOv8 Weights
 Download the pre-trained YOLOv8 weights (yolov8l.pt) from the Ultralytics GitHub Repository.
 Place the file in the YOLO_Weights directory.
+
 **Step 3**: Add Video and Mask
 
 - Video:
